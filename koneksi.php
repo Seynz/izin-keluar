@@ -1,4 +1,6 @@
 <?php
+session_start();
+sesssion_stop();
 
 $host = 'localhost';
 $user = 'root';
