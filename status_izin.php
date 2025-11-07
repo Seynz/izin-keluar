@@ -1,5 +1,7 @@
 <?php
 include 'koneksi.php';
+session_start();
+session_destroy();
 
 $conn->query("UPDATE izin SET status='ditolak' WHERE status='pending' AND tanggal_izin < CURDATE()");
 

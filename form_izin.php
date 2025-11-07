@@ -1,5 +1,7 @@
 <?php 
 include 'koneksi.php'; 
+session_start();
+session_destroy();
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $id_anggota = $_POST['id_anggota'];
