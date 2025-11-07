@@ -48,7 +48,7 @@ $result = $conn->query($sql);
   <meta charset="UTF-8">
   <title>Status Izin Hari Ini</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="assets/logo-uho.png">
+  <link rel="icon" type="image/png" href="assets/logo-brmp.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     #dropdownAnggota {
@@ -68,8 +68,8 @@ $result = $conn->query($sql);
 <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow-sm">
   <div class="container">
     <a class="navbar-brand fw-bold d-flex align-items-center" href="index.php">
-      <img src="assets/logo-uho.png" alt="Logo UHO" height="40" class="me-2">
-      Sistem Izin Karyawan
+      <img src="assets/logo-brmp.png" alt="Logo BRMP" height="40" class="me-2">
+      Sistem Izin Non-Kedinasan
     </a>
   </div>
 </nav>
@@ -79,7 +79,7 @@ $result = $conn->query($sql);
       <div class="card shadow-sm">
         <div class="card-header bg-success text-white text-center">
           <h4 class="mb-0 d-flex align-items-center justify-content-center">
-            <img src="assets/logo-uho.png" alt="Logo UHO" height="30" class="me-2">
+            <img src="assets/logo-brmp.png" alt="Logo BRMP" height="30" class="me-2">
             Status Izin Hari Ini (<?= date('d-m-Y') ?>)
           </h4>
         </div>
@@ -228,7 +228,7 @@ $result = $conn->query($sql);
   </div>
 </div>
 <footer class="text-center py-3 mt-5 text-muted">
-  &copy; <?= date('Y') ?> Sistem Izin Karyawan
+  &copy; <?= date('Y') ?> Sistem Izin Non-Kedinasan
 </footer>
 <script>
 const searchInput = document.getElementById('searchAnggota');

@@ -1,5 +1,7 @@
 <?php
 include 'koneksi.php'; 
+session_start();
+session_destroy();
 ?>
 
 <!DOCTYPE html>
@@ -7,8 +9,8 @@ include 'koneksi.php';
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sistem Izin Karyawan</title>
-  <link rel="icon" type="image/png" href="assets/logo-uho.png">
+  <title>Sistem Izin Non-Kedinasan</title>
+  <link rel="icon" type="image/png" href="assets/logo-brmp.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="bg-light">
@@ -16,8 +18,8 @@ include 'koneksi.php';
 <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow-sm">
   <div class="container">
     <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
-      <img src="assets/logo-uho.png" alt="Logo UHO" height="40" class="me-2">
-      Sistem Izin Karyawan
+      <img src="assets/logo-brmp.png" alt="Logo BRMP" height="40" class="me-2">
+      Sistem Izin Non-Kedinasan
     </a>
   </div>
 </nav>
@@ -28,7 +30,7 @@ include 'koneksi.php';
       <div class="card shadow-sm">
         <div class="card-header bg-success text-white text-center">
           <h2 class="mb-0 d-flex align-items-center justify-content-center">
-            <img src="assets/logo-uho.png" alt="Logo UHO" height="35" class="me-2">
+            <img src="assets/logo-brmp.png" alt="Logo BRMP" height="35" class="me-2">
             Selamat Datang
           </h2>
         </div>
@@ -46,7 +48,7 @@ include 'koneksi.php';
 </div>
 
 <footer class="text-center py-3 mt-5 text-muted">
-  &copy; <?= date('Y') ?> Sistem Izin Karyawan
+  &copy; <?= date('Y') ?> Sistem Izin Non-Kedinasan
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

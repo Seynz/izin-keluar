@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <meta charset="UTF-8">
   <title>Tambah Akun Admin</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="../assets/logo-uho.png">
+  <link rel="icon" type="image/png" href="../assets/logo-brmp.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="bg-light">
@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="card shadow-sm">
           <div class="card-header bg-success text-white text-center">
             <h4 class="mb-0 d-flex align-items-center justify-content-center">
-              <img src="../assets/logo-uho.png" alt="Logo UHO" height="30" class="me-2">
+              <img src="../assets/logo-brmp.png" alt="Logo BRMP" height="30" class="me-2">
               Tambah Akun Admin
             </h4>
           </div>

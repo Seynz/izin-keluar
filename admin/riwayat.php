@@ -164,7 +164,7 @@ $result = $stmt->get_result();
   <meta charset="UTF-8">
   <title>Riwayat Izin 3 Bulan Terakhir</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="../assets/logo-uho.png">
+  <link rel="icon" type="image/png" href="../assets/logo-brmp.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     #dropdownAnggota {
@@ -184,7 +184,7 @@ $result = $stmt->get_result();
 <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow-sm">
   <div class="container">
     <a class="navbar-brand fw-bold d-flex align-items-center" href="dashboard.php">
-      <img src="../assets/logo-uho.png" alt="Logo UHO" height="40" class="me-2">
+      <img src="../assets/logo-brmp.png" alt="Logo BRMP" height="40" class="me-2">
       Dashboard Admin
     </a>
     <div class="d-flex">
@@ -205,7 +205,7 @@ $result = $stmt->get_result();
       <div class="card shadow-sm mb-4">
         <div class="card-header bg-success text-white text-center">
           <h4 class="mb-0 d-flex align-items-center justify-content-center">
-            <img src="../assets/logo-uho.png" alt="Logo UHO" height="30" class="me-2">
+            <img src="../assets/logo-brmp.png" alt="Logo BRMP" height="30" class="me-2">
             Riwayat Izin Anggota 3 Bulan Terakhir
           </h4>
           <small>(<?= date('d-m-Y', strtotime($tanggal_awal)) ?> s/d <?= date('d-m-Y') ?>)</small>

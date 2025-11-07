@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
   <meta charset="UTF-8">
   <title>Login Admin</title>
-  <link rel="icon" type="image/png" href="../assets/logo-uho.png">
+  <link rel="icon" type="image/png" href="../assets/logo-logo-brmp.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="bg-light">
@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <div class="card shadow-sm p-4 position-relative">
         <a href="../index.php" class="btn-close position-absolute top-0 end-0 m-3" aria-label="Close"></a>
         <h3 class="mb-4 text-center d-flex align-items-center justify-content-center">
-          <img src="../assets/logo-uho.png" alt="Logo UHO" height="30" class="me-2">
+          <img src="../assets/logo-brmp.png" alt="Logo BRMP" height="30" class="me-2">
           Login Admin
         </h3>
         <form method="POST">
